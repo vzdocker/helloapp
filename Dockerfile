@@ -3,5 +3,5 @@ COPY . /app
 WORKDIR /app
 RUN ["dnu", "restore"]
 
-EXPOSE 6000
+EXPOSE 5000
 ENTRYPOINT ["dnx", "-p", "project.json", "web"]
