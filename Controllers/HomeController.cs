@@ -10,6 +10,12 @@ namespace dockerPOC.Controllers
     {
         public IActionResult Index()
         {
+            Console.Write("qw");
+
+            var dd = Request.Host.Value;
+            var ll = dd.Split(':');
+            ViewData["IpAddr"] = ll[0];
+            ViewData["Port"] = ll[1];
             return View();
         }
 

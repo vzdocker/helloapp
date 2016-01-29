@@ -32,3 +32,28 @@ textarea {
         z-index: 10 !important;
     }
 }
+
+
+.message-box {
+     box-shadow: 2px 2px 6px rgba(185, 185, 185, 0.3);
+     border: 1px solid rgba(185, 185, 185, 0.3);
+     padding: 20px;
+     color: #686666;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.message-box-image {
+    height: 30px;
+    margin: 20px 0px;
+}
+
+.message-box-header{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 5px solid #2794be;
+    margin-bottom: 10px;
+}
+
+.message-box-line{
+    margin-bottom: 10px;
+}
